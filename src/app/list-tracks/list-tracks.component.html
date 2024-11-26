@@ -1,0 +1,25 @@
+<h2 class="text-center">Tracks List</h2>
+
+<!-- Collapsible Tracks List -->
+<div *ngIf="tracks.length > 0; else noTracks">
+  <div class="collapse show" id="collapseTracks" style="margin: 20px;">
+    <div class="card card-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" *ngFor="let track of tracks">
+          <div class="track-details">
+            <h4>{{ track.trackId }} {{ track.title }}</h4>
+            <p *ngIf="track.lyrics">Lyrics: {{ track.lyrics }}</p>
+            <p *ngIf="track.video">
+              Video: <a [href]="track.video" target="_blank">{{ track.video }}</a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Message if no tracks are found -->
+<ng-template #noTracks>
+  <p>No tracks found for this album.</p>
+</ng-template>

@@ -1,0 +1,59 @@
+
+<!-- Display album details for selected album -->
+<div align="center" *ngIf="album">
+  <div class="card mb-6" style="max-width: 500px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <div style="height:150px; width: 150px; overflow:hidden;">
+          <img [src]="album.image" class="card-img" [alt]="album.title" width="150px" height="150px">
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ album.title }}</h5>
+          <p class="card-text">{{ album.description }}</p>
+          <p class="card-text">
+            <small class="text-muted">{{ album.year }}</small>
+          </p>
+          <table>
+            <tr>
+              <td width="50px" align="center">
+                <a href="#" data-toggle="collapse" data-target="#collapseTracks" aria-expanded="false" aria-controls="collapseTracks">
+                  <i class="fa fa-list"></i>
+                </a>
+              </td>
+              <td width="50px" align="center">
+                <a [routerLink]="['/edit', album.albumId]">
+                  <i class="fa fa-edit"></i>
+                </a>
+              </td>
+              <td width="50px" align="center">
+                <a [routerLink]="['/delete', album.albumId]">
+                  <i class="fa fa-trash"></i>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="collapse" id="collapseTracks" style="margin-left:5px; margin-right:50px">
+  <div class="card card-body">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" *ngFor="let track of album?.tracks">
+        <strong>{{ track.number }}. {{ track.title }}</strong>
+        <br>
+        <span *ngIf="track.lyrics">Lyrics: {{ track.lyrics }}</span>
+        <br>
+        <span *ngIf="track.video">
+          Video: <a [href]="track.video" target="_blank">{{ track.video }}</a>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+

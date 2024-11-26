@@ -1,0 +1,35 @@
+<!--Creates an album in form-->
+<div align="center" style="margin-left:50px; margin-right:50px" *ngIf="!wasSubmitted">
+  <p>{{ album.artist }}</p>
+  <form (ngSubmit)="onSubmit()" #createForm="ngForm">
+    <div class="form-group">
+      <label for="artist">Artist</label>
+      <input id="artist" type="text" class="form-control" placeholder="Enter the name of the Artist" required [(ngModel)]="album.artist" name="artist">
+    </div>
+    <div class="form-group">
+      <label for="album">Album</label>
+      <input id="album" type="text" class="form-control" placeholder="Enter the name of the Album" required [(ngModel)]="album.title" name="title">
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" rows="3" class="form-control" placeholder="Enter the description of the Album" required [(ngModel)]="album.description" name="description"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="year">Year</label>
+      <input id="year" type="text" class="form-control" placeholder="Enter the year of the Album" required [(ngModel)]="album.year" name="year">
+    </div>
+    <div class="form-group">
+      <label for="image">Image Filename</label>
+      <input id="image" type="text" class="form-control" placeholder="Enter the image filename for the Album" [(ngModel)]="album.image" name="image">
+    </div>
+    <div class="form-group">
+      <label for="tracks">Tracks</label>
+      <textarea id="tracks" rows="3" class="form-control" placeholder="Enter each track followed by a return key for the Album" required [(ngModel)]="tracksRaw" name="tracks"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div *ngIf="wasSubmitted">
+  Album was added successfully.
+</div>

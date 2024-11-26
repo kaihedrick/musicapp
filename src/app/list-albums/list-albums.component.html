@@ -1,0 +1,14 @@
+<div class="list-group" *ngIf="selectedAlbum == null">
+  <button class="list-group-item" *ngFor="let album of albums" (click)="onSelectAlbum(album)">
+    <table align="center">
+      <tr>
+        <td width="20%">
+          <img [src]="album.image" width="50px" height="50px" (click)="viewTracks(album.albumId)" />
+        </td>
+        <td>{{ album.title }} from {{ album.year }}</td>
+      </tr>
+    </table>
+  </button>
+</div>
+
+<app-display-album *ngIf="selectedAlbum" [album]="selectedAlbum"></app-display-album>

@@ -1,0 +1,256 @@
+[
+  {
+    "albumId": 1,
+    "title": "Revolver",
+    "artist": "The Beatles",
+    "description": "",
+    "year": "1966",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg",
+    "tracks": [
+      {
+        "trackId": 1,
+        "number": 1,
+        "title": "Taxman",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 2,
+        "number": 2,
+        "title": "Eleanor Rigby",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 3,
+        "number": 3,
+        "title": "I'm Only Sleeping",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 4,
+        "number": 4,
+        "title": "Love You To",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 5,
+        "number": 5,
+        "title": "Here, There and Everywhere",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 6,
+        "number": 6,
+        "title": "Yellow Submarine",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 7,
+        "number": 7,
+        "title": "She Said She Said",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 8,
+        "number": 8,
+        "title": "Good Day Sunshine",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 9,
+        "number": 9,
+        "title": "And Your Bird Can Sing",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 10,
+        "number": 10,
+        "title": "For No One",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 11,
+        "number": 11,
+        "title": "Doctor Robert",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 12,
+        "number": 12,
+        "title": "I Want to Tell You",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 13,
+        "number": 13,
+        "title": "Got to Get You into My Life",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 14,
+        "number": 14,
+        "title": "Tomorrow Never Knows",
+        "lyrics": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "albumId": 3,
+    "title": "Rubber Soul",
+    "artist": "The Beatles",
+    "description": "My 2nd favorite Beatles Album",
+    "year": "1965",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Rubber_Soul.jpg",
+    "tracks": [
+      {
+        "trackId": 27,
+        "number": 1,
+        "title": "I've Just Seen a Face",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 28,
+        "number": 2,
+        "title": "Norwegian Wood (This Bird Has Flown)",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 29,
+        "number": 3,
+        "title": "You Won't See Me",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 30,
+        "number": 4,
+        "title": "Think for Yourself",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 31,
+        "number": 5,
+        "title": "The Word",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 32,
+        "number": 6,
+        "title": "Michelle",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 33,
+        "number": 7,
+        "title": "It's Only Love",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 34,
+        "number": 8,
+        "title": "Girl",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 35,
+        "number": 9,
+        "title": "I'm Looking Through You",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 36,
+        "number": 10,
+        "title": "In My Life",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 37,
+        "number": 11,
+        "title": "Wait",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 38,
+        "number": 12,
+        "title": "Run for Your Life",
+        "lyrics": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "albumId": 30,
+    "title": "Mr. Tambourine Man",
+    "artist": "The Byrds",
+    "description": "My favorite Byrds Album",
+    "year": "1965",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/Byrds-MrTambourineMan.jpg",
+    "tracks": [
+      {
+        "trackId": 100,
+        "number": 1,
+        "title": "Mr. Tambourine Man",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 101,
+        "number": 2,
+        "title": "I'll Feel a Whole Lot Better",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 102,
+        "number": 3,
+        "title": "Spanish Harlem Incident",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 103,
+        "number": 4,
+        "title": "You Won't Have to Cry",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 104,
+        "number": 5,
+        "title": "Here Without You",
+        "lyrics": "",
+        "video": ""
+      },
+      {
+        "trackId": 105,
+        "number": 6,
+        "title": "The Bells of Rhymney",
+        "lyrics": "",
+        "video": ""
+      }
+    ]
+  }
+]
